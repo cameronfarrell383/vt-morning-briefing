@@ -7,7 +7,8 @@
       "Bash(./venv/Scripts/pip install:*)",
       "Bash(./venv/Scripts/python:*)",
       "Bash(PYTHONIOENCODING=utf-8 ./venv/Scripts/python:*)",
-      "Bash(PYTHONIOENCODING=utf-8 python:*)"
+      "Bash(PYTHONIOENCODING=utf-8 python:*)",
+      "Bash(source:*)"
     ]
   }
 }
