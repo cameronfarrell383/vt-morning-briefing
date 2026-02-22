@@ -8,7 +8,7 @@
 
 | Phase | Description           | Status      |
 |-------|-----------------------|-------------|
-| 1     | Foundation            | 🔲 Not Started |
+| 1     | Foundation            | 🟡 In Progress |
 | 2     | Email Integration     | 🔲 Not Started |
 | 3     | Canvas + Reminders    | 🔲 Not Started |
 | 4     | AI Summarization      | 🔲 Not Started |
@@ -18,13 +18,13 @@
 
 ## Phase 1: Foundation
 
-- [ ] Create project directory structure (see PRD Section 5)
-- [ ] Create `requirements.txt` with all dependencies
-- [ ] Create `.env.example` with all required variables
-- [ ] Create `config.py` to load environment variables
-- [ ] Implement `fetchers/weather.py` — OpenWeatherMap API
-- [ ] Implement `messenger.py` — Twilio SMS sender
-- [ ] Create `main.py` — basic orchestrator
+- [x] Create project directory structure (see PRD Section 5)
+- [x] Create `requirements.txt` with all dependencies
+- [x] Create `.env.example` with all required variables
+- [x] Create `config.py` to load environment variables
+- [x] Implement `fetchers/weather.py` — OpenWeatherMap API
+- [x] Implement `messenger.py` — Twilio SMS sender
+- [x] Create `main.py` — basic orchestrator
 - [ ] **TEST:** Send a weather-only SMS to your phone
 
 **Credentials needed before starting:**
@@ -100,7 +100,7 @@ _Use this section to track any issues encountered during development._
 
 | Date | Issue | Resolution |
 |------|-------|------------|
-|      |       |            |
+| 2/21 | OWM API key returns 401 | Key may need a few hours to activate after creation |
 
 ---
 
